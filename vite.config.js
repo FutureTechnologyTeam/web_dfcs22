@@ -13,7 +13,7 @@ export default defineConfig({
     open: true
   },
   plugins: [vue()],
-  base: "/REPONAME",
+  base: "./",
   resolve: {
     alias: {
       '@':path.resolve(__dirname,'./src')
